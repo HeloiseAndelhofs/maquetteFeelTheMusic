@@ -8,23 +8,6 @@ body{
     overflow-x: hidden;
   
 }
-header{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 2%;
-}
-header > :nth-child(1){
-    display: flex;
-    align-self: flex-start;
-}
-header > :nth-child(2){
-    display: flex;
-
-}
-header h2, h3{
-    padding: 10px;
-    font-weight: 400;
-}
 main{
     display: flex;
     justify-content: space-evenly;
