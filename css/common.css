@@ -5,15 +5,16 @@ header{
     font-family: 'Poppins', sans-serif;
     color: whitesmoke;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 2%;
+    width: 80%;
+    margin: auto;
 }
 header > :nth-child(1){
     display: flex;
 }
 header > :nth-child(2){
     display: flex;
-
 }
 header h2, h3{
     padding: 10px;
@@ -23,14 +24,12 @@ footer{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    background-color:  #202027;
 }
 footer > :nth-child(1){
     display: flex;
 }
 footer > :nth-child(2){
-    display: flex;
-}
-footer > :nth-child(3){
     display: flex;
 }
 footer h3{
