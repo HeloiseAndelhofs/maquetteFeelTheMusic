@@ -19,3 +19,21 @@ header h2, h3{
     padding: 10px;
     font-weight: 400;
 }
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+footer > :nth-child(1){
+    display: flex;
+}
+footer > :nth-child(2){
+    display: flex;
+}
+footer > :nth-child(3){
+    display: flex;
+}
+footer h3{
+    padding: 10px;
+    font-weight: 400;
+}
