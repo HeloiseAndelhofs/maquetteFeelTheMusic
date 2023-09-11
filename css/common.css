@@ -18,9 +18,13 @@ header > :nth-child(1){
 header > :nth-child(2){
     display: flex;
 }
-header h2, h3{
+header a{
+    margin-top: 20px;
     padding: 10px;
     font-weight: 400;
+    text-decoration: none;
+    color: whitesmoke;
+
 }
 footer{
     display: flex;
