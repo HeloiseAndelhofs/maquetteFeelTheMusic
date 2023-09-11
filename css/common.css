@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
-
+body{
+    margin: 0;
+}
 header{
     font-family: 'Poppins', sans-serif;
     color: whitesmoke;
     display: flex;
     justify-content: space-between;
-    margin-top: 2%;
     width: 80%;
     margin: auto;
+    padding: 20px;
 }
 header > :nth-child(1){
     display: flex;
@@ -22,9 +24,12 @@ header h2, h3{
 }
 footer{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row;
     justify-content: space-around;
     background-color:  #202027;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 footer > :nth-child(1){
     display: flex;
